@@ -15,7 +15,6 @@ import static newcartester.Vehicle.name;
  */
 public class Truck extends Vehicle{
     static double storage;
-    
     public Truck(){
      name = JOptionPane.showInputDialog("What do you want to name your car?");
      String speeds = JOptionPane.showInputDialog("How fast do you want to start driving (in km/m)"); 
