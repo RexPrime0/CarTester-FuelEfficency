@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author Abels6598
  */
-public class Vehicle {
+public abstract class Vehicle {
     static int speed;
     static String name;
 public Vehicle(){
@@ -34,11 +34,9 @@ public void park(){
 }
 /**
     * Calculates the distance the car can travel based on fuel inputted
+    
     */
-public double getDistance(double fuel){
-    double distance = fuel*100;
-    return distance;
-}
+public abstract double getDistance(double fuel);
    
 }
 

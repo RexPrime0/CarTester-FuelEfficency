@@ -19,7 +19,7 @@ public class FuelEfficiency {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Vehicle vehicle1 = new Vehicle();
+        Vehicle vehicle1;
         String choice = JOptionPane.showInputDialog(
              "What type of vehicle do you want?:\n"
             + "1 - Truck\n"
