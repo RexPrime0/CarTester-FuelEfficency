@@ -16,6 +16,9 @@ import static newcartester.Vehicle.name;
 public class HybridCar extends Vehicle{
     public HybridCar(){}
     
+    /**
+    * returns distance that the HybridCar can travel based on fuel entered (max distance that can be traveled with inputted amount of fuel)
+    */
     public double getDistance(double fuel){
         double distance = fuel * 26.3157894737;
         return distance;

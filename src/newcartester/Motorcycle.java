@@ -16,6 +16,9 @@ import static newcartester.Vehicle.name;
 public class Motorcycle extends Vehicle{
     public Motorcycle(){
 }
+    /**
+    * returns distance that the Motorcycle can travel based on fuel entered (max distance that can be traveled with inputted amount of fuel)
+    */
     public double getDistance(double fuel){
         double distance = fuel * 15.873015873;
         return distance;
