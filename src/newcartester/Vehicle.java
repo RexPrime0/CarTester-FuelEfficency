@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author Abels6598
  */
-public class Vehicle {
+public abstract class Vehicle {
     static int speed;
     static String name;
 public Vehicle(){

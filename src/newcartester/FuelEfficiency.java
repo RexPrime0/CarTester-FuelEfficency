@@ -30,28 +30,28 @@ public class FuelEfficiency {
               String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
          double fuel = Double.parseDouble(fuelS);
          double distance = vehicle1.getDistance(fuel);
-         System.out.println("With that amount of fuel you will be able to travel " + distance + "k");
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
          } else
              if(choice.equals("2")){
              Car vehicle1 = new Car();
               String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
          double fuel = Double.parseDouble(fuelS);
          double distance = vehicle1.getDistance(fuel);
-         System.out.println("With that amount of fuel you will be able to travel " + distance + "k");
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
          } else
              if(choice.equals("3")){
              HybridCar vehicle1 = new HybridCar();
               String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
          double fuel = Double.parseDouble(fuelS);
          double distance = vehicle1.getDistance(fuel);
-         System.out.println("With that amount of fuel you will be able to travel " + distance + "k");
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
          } else
              if(choice.equals("4")){
              Motorcycle vehicle1 = new Motorcycle();
               String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
          double fuel = Double.parseDouble(fuelS);
          double distance = vehicle1.getDistance(fuel);
-         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "k");
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
          }
         
     }
