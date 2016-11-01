@@ -14,11 +14,7 @@ import static newcartester.Vehicle.name;
  * @author Abels6598
  */
 public class HybridCar extends Vehicle{
-    public HybridCar(){
-        name = JOptionPane.showInputDialog("What do you want to name your car?");
-        String speeds = JOptionPane.showInputDialog("How fast do you want to start driving (in km/m)"); 
-        speed = Integer.parseInt(speeds);
-}
+    public HybridCar(){}
     
     public double getDistance(double fuel){
         double distance = fuel * 26.3157894737;

@@ -15,9 +15,6 @@ import static newcartester.Vehicle.name;
  */
 public class Motorcycle extends Vehicle{
     public Motorcycle(){
-    name = JOptionPane.showInputDialog("What do you want to name your car?");
-    String speeds = JOptionPane.showInputDialog("How fast do you want to start driving (in km/m)"); 
-    speed = Integer.parseInt(speeds);
 }
     public double getDistance(double fuel){
         double distance = fuel * 15.873015873;
