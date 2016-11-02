@@ -29,20 +29,32 @@ public class FuelEfficiency {
         
          if(choice.equals("1")){
              vehicle1 = new Truck();
-         } else
-             if(choice.equals("2")){
-             vehicle1 = new Car();
-         } else
-             if(choice.equals("3")){
-             vehicle1 = new HybridCar();
-         } else
-             if(choice.equals("4")){
-              vehicle1 = new Motorcycle();
-         }
-         String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
+             String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
          double fuel = Double.parseDouble(fuelS);
          double distance = vehicle1.getDistance(fuel);
          JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
+         } else
+             if(choice.equals("2")){
+             vehicle1 = new Car();
+             String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
+         double fuel = Double.parseDouble(fuelS);
+         double distance = vehicle1.getDistance(fuel);
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
+         } else
+             if(choice.equals("3")){
+             vehicle1 = new HybridCar();
+             String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
+         double fuel = Double.parseDouble(fuelS);
+         double distance = vehicle1.getDistance(fuel);
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
+         } else
+             if(choice.equals("4")){
+              vehicle1 = new Motorcycle();
+              String fuelS = JOptionPane.showInputDialog("How much fuel do you want to use?");
+         double fuel = Double.parseDouble(fuelS);
+         double distance = vehicle1.getDistance(fuel);
+         JOptionPane.showMessageDialog(null, "With that amount of fuel you will be able to travel " + distance + "kms");
+         }
         
     }
     
