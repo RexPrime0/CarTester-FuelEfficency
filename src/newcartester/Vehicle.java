@@ -13,6 +13,10 @@ import javax.swing.JOptionPane;
 public abstract class Vehicle {
     static int speed;
     static String name;
+    /*
+    *Decleration Method for all vehicles
+    *Asks for name and then starting speed
+    */
 public Vehicle(){
     name = JOptionPane.showInputDialog("What do you want to name your car?");
     String speeds = JOptionPane.showInputDialog("How fast do you want to start driving (in km/m)"); 
@@ -34,7 +38,6 @@ public void park(){
 }
 /**
     * Calculates the distance the car can travel based on fuel inputted
-    
     */
 public abstract double getDistance(double fuel);
    
